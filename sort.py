@@ -7,5 +7,3 @@ def sort(numbers):
                 numbers[j + 1] = tmp
     return numbers
 
-
-print(sort([4, -1, 2, 5, 1, 0]))

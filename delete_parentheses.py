@@ -26,8 +26,3 @@ def delete_parentheses(sentence):
         result += sentence[last_left:]
     return result
 
-
-print(delete_parentheses("(fdsf)dskf(fds)"))
-print(delete_parentheses("(fdsfdskffds)"))
-print(delete_parentheses("(fds)(fdsfdskffds)(fdsfsdf)"))
-print(delete_parentheses("sdfsd((fds)(fdsfdskffds)(fdsfsdf))fdskdljsjk"))
